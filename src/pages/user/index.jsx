@@ -1,7 +1,7 @@
 import React from "react";
 
 const index = () => {
-  return <div>user index</div>;
+  return <div className="bg-black">user index</div>;
 };
 
 export default index;
