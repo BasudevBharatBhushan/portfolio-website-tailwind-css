@@ -3,13 +3,16 @@ const colors = require("tailwindcss/colors");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: "jit", //Just in time compiler
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
       colors: {
         primary: "#202225",
         secondary: "#5865f2",
+      },
+      fontFamily: {
+        burtons: "burtons",
       },
     },
   },
